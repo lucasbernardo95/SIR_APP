@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sir.lucasbernardo.tads.eaj.ufrn.com.br.sir">
+
+    <!-- Concede a permissão de usar internet ao app -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.orm.SugarApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/sir_icone"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Abertura"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="DATABASE"
+            android:value="sir.db" /> <!-- nome do banco -->
+        <meta-data
+            android:name="VERSION"
+            android:value="1" /> <!-- versão do banco -->
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" /> <!-- Exibir mensagens de log -->
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="sir.lucasbernardo.tads.eaj.ufrn.com.br.sir" /> <!-- pacote do app -->
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

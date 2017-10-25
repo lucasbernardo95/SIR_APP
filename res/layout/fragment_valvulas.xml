@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1"
+    tools:context="sir.lucasbernardo.tads.eaj.ufrn.com.br.sir.MainActivity">
+
+    <TableRow
+        android:paddingBottom="20dp"
+        android:paddingTop="25dp">
+        <TextView
+            android:text="@string/textTemperaturaAmb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/temperaturaab" />
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressTemperaturaab"
+            android:minWidth="150dp"
+            android:max="110" />
+        <TextView
+            android:text="0º"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/valorTemperaturaab"
+            android:layout_marginLeft="30dp"
+            android:textSize="@dimen/fonteSensor"
+            android:layout_marginRight="20dp"/>
+    </TableRow>
+
+    <TableRow
+        android:paddingBottom="20dp"
+        android:paddingTop="25dp">
+        <TextView
+            android:text="@string/textUmidadeAmbiente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/umidadeab" />
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressUmidadeab"
+            android:minWidth="150dp"
+            android:max="110" />
+        <TextView
+            android:text="0º"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/valorUmidadeab"
+            android:layout_marginLeft="30dp"
+            android:textSize="@dimen/fonteSensor"
+            android:layout_marginRight="20dp"/>
+    </TableRow>
+
+    <TableRow
+        android:paddingBottom="20dp"
+        android:paddingTop="25dp">
+        <TextView
+            android:text="@string/textUmidadeSolo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" />
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressUmidadesolo"
+            android:minWidth="150dp"
+            android:max="170" />
+        <TextView
+            android:text="0º"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/valorUmidadeSolo"
+            android:layout_marginLeft="30dp"
+            android:textSize="@dimen/fonteSensor"
+            android:layout_marginRight="20dp"/>
+    </TableRow>
+
+    <TableRow
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <Switch
+            android:text="@string/inativo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btAcionamento"
+            android:layout_marginStart="26dp" />
+
+        <Chronometer
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cronometro"
+            android:text="Cronômetro:"
+            android:format="00:00:00"
+            android:textSize="@dimen/fonteSensor"
+            android:layout_marginEnd="28dp"
+            android:textAlignment="center"/>
+        <ImageView
+            android:layout_width="@dimen/tamImgAcionamento"
+            android:layout_height="@dimen/tamImgAcionamento"
+            android:src="@drawable/red"
+            android:id="@+id/imgAcionamento" />
+    </TableRow>
+
+</TableLayout >

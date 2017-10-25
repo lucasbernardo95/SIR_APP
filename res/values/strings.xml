@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SIR</string>
+    <string name="textTemperaturaAmb">Temperatura</string>
+    <string name="textUmidadeAmbiente">Umidade</string>
+    <string name="textUmidadeSolo">Umidade do solo</string>
+    <string name="ativo">Ativo</string>
+    <string name="inativo">Inativo</string>
+    <string name="controle">Controle</string>
+    <string name="historico">Histórico</string>
+    <string name="btBuscar">Buscar</string>
+    <string name="hora">Hora</string>
+    <string name="data">Data</string>
+    <string name="Duração">Duração</string>
+    <string name="id">ID</string>
+    <string name="opcaoSnackbar">Desfazer</string>
+    <string name="conteudoSnackbar">Deseja desfazer a exclusão?</string>
+    <string name="opçãoSnackbar">Desfazer</string>
+    <string name="textTemperatura">Temperatura</string>
+</resources>

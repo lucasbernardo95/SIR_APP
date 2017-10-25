@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SIR</string>
+    <string name="controle">Controller</string>
+    <string name="inativo">Inactive</string>
+    <string name="ativo">Active</string>
+    <string name="historico">Historic</string>
+    <string name="textTemperatura">Temperature</string>
+    <string name="btBuscar">Search</string>
+    <string name="Duração">Duration</string>
+    <string name="data">Date</string>
+    <string name="hora">Hour</string>
+    <string name="id">ID</string>
+    <string name="opçãoSnackbar">Undo</string>
+    <string name="conteudoSnackbar">Do you want to undelete?</string>
+    <string name="opcaoSnackbar">Undo</string>
+    <string name="textTemperaturaAmb">Temperature</string>
+    <string name="textUmidadeSolo">Soil moisture</string>
+    <string name="textUmidadeAmbiente">Humidity</string>
+</resources>

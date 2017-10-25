@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_sensor"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/marginTopHistoricovalores"
+    android:stretchColumns="0,1,2,3">
+
+    <TableRow>
+        <TextView
+            android:text="25/11/2016"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dataValvula"
+            android:textSize="@dimen/fonteSensor" />
+
+        <TextView
+            android:text="00:00:07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/duracaoValvula"
+            android:textSize="@dimen/fonteSensor" />
+
+        <TextView
+            android:text="23:30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/horaValvula"
+            android:textSize="@dimen/fonteSensor" />
+
+        <TextView
+            android:text="10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/idValvula"
+            android:textSize="@dimen/fonteSensor"/>
+    </TableRow>
+</TableLayout>
